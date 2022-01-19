@@ -34,3 +34,8 @@ const addDigits = (num) => {
 };
 
 export default addDigits;
+
+console.log(addDigits(325));//1
+console.log(addDigits(10));//1
+console.log(addDigits(130));//4
+console.log(addDigits(44633));//2
