@@ -1,0 +1,41 @@
+/*Запишите команду Emmet, которая преобразуется в следующий шаблон для резюме:
+
+<main>
+  <h1>Резюме</h1>
+  <h2>Разработчик веб-приложений</h2>
+  <section class="study">
+    <h2>Образование</h2>
+    <ul>
+      <li class="place-of-study-1">Место учёбы №1</li>
+      <li class="place-of-study-2">Место учёбы №2</li>
+      <li class="place-of-study-3">Место учёбы №3</li>
+    </ul>
+  </section>
+  <section class="works">
+    <h2>Примеры работ</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>№</th>
+          <th>Название работы</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Моя классная работа</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Моя классная работа</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Моя классная работа</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</main> */
+
+main>h1{Резюме}+h2{Разработчик веб-приложений}+(section.study>h2{Образование}+ul>li.place-of-study-$*3{Место учёбы №$})+section.works>h2{Примеры работ}+table>(thead>tr>th{№}+th{Название работы})>tbody>(tr>td{$}+td{Моя классная работа})*3
