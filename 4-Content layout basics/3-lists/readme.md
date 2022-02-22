@@ -1,4 +1,5 @@
 Создайте разметку базового уровня карты навыков верстальщика.
+https://cdn2.hexlet.io/derivations/image/original/eyJpZCI6IjQ5MWFhZDQ0MDE4NWYzZWQyMzkxNzkxNmY3MTc1Njk4LmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9?signature=ee344e8ad30d681a8e6c08b0716d5264cfd042d6d7c3837ec037fda84d57b9dd
 <p>Структура разметки:</p>
 <ul>
   <li>Заголовок первого уровня: Карта навыков верстальщика</li>
