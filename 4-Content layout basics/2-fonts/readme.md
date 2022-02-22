@@ -55,3 +55,6 @@
   <li>Межстрочный интервал: 1.75</li>
   <li>Выравнивание по ширине</li>
 </ul>
+<p>Итоговым результатом выполнения задания станет следующий макет:</p>
+
+![alt tag](https://cdn2.hexlet.io/derivations/image/original/eyJpZCI6IjJkMDVjMzgxMDI0MDRmMjg5NmFjMTIyNjE2Zjc3NDhiLmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9?signature=48867f84ff174fcb47fdb5c2b731b7fc095dc6b57544f1786d741389030db03d)
