@@ -1,0 +1,18 @@
+.box-shadow {
+  position: relative;
+
+  height: 150px;
+
+  background-color: #461a96;
+}
+
+.box {
+  position: relative;
+
+  height: 150px;
+
+  right: 3px;
+  bottom: 153px;
+
+  background-color: #673ab7;
+}
