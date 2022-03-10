@@ -1,0 +1,64 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 500px;
+
+  padding: 30px 50px;
+}
+
+.flex-item {
+  display: flex;
+  align-items: center;
+
+  box-sizing: border-box;
+  height: 50px;
+
+  margin-bottom: 10px;
+  padding-left: 20px;
+
+  font-weight: bold;
+
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.bg-blue {
+
+  background: #a2cbfa;
+  border-color: #4390e1;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.progress-20 {
+  order: 1;
+
+  width: 20%;
+}
+
+.progress-25 {
+  order: 2;
+
+  width: 25%;
+}
+
+.progress-33 {
+  order: 3;
+
+  width: 33%;
+}
+
+.progress-50 {
+  order: 4;
+
+  width: 50%;
+}
+
+.progress-69 {
+  order: 5;
+
+  width: 69%;
+}
