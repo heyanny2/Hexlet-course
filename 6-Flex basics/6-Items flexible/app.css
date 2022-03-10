@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.bg-gray {
+  background: #bdbdbd;
+}
+
+.bg-orange {
+  background: #ffcc80;
+}
+
+.bg-green {
+  background: #66bb6a;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item {
+  flex: 1 1 200px;
+
+}
+
+.no-shrink {
+  flex-shrink: 0;
+}
