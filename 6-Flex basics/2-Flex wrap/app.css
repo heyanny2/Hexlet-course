@@ -1,0 +1,8 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catalog-item {
+  width: 350px;
+}
