@@ -1,0 +1,28 @@
+.btn {
+  display: block;
+  width: 200px;
+  padding: 15px;
+
+  background: #2196f3;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-element-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.margin-right-1 {
+  margin: 1em;
+}
+
+.text-white {
+  color: #fff;
+}
