@@ -26,7 +26,7 @@ const make = (numer, denom) => ({
     return `${this.getNumer()}/${this.getDenom()}`;
   },
   add(rational) {
-    const newNumer = (this.getNumer() * rational.getDenom() + this.getDenom() * rational.getNumer());
+    const newNumer = this.getNumer() * rational.getDenom() + this.getDenom() * rational.getNumer();
     const newDenom = this.getDenom() * rational.getDenom();
     return make(newNumer, newDenom);
   },
