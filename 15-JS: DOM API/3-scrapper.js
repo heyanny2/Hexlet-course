@@ -37,8 +37,8 @@ src/index.js
 //extractor.js
 const extractData = (root) => {
   console.log(root.parentNode);
-  const children = Array.from(root.parentNode.body.childNodes);
-  return children
+  const childrenArr = Array.from(root.parentNode.body.childNodes);
+  return childrenArr
     .filter((element) => element.tagName === 'P')
     .map((element) => element.innerHTML.trim()); //я тут обращалась к textContent
     
