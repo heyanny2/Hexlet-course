@@ -36,12 +36,10 @@ src/index.js
 
 //extractor.js
 const extractData = (root) => {
-  console.log(root.parentNode);
   const childrenArr = Array.from(root.parentNode.body.childNodes);
   return childrenArr
     .filter((element) => element.tagName === 'P')
-    .map((element) => element.innerHTML.trim()); //я тут обращалась к textContent
-    
+    .map((element) => element.innerHTML.trim());
 };
 
 export default extractData;
