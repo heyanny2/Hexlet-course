@@ -11,6 +11,9 @@ console.log(document.body.innerHTML);
 // <body>
 //   <div class="textCenter rowB">Bam</div>
 // </body> */
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+import camelCase from 'lodash/camelCase';
 
 export default (document) => {
   const allNodes = [...document.body.getElementsByTagName('*')];
