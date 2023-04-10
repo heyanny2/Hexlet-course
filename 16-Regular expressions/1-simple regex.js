@@ -11,7 +11,7 @@ let test = [
   'ruby2.5',//false
   'ruby1111',//false
   'ruby10',//false
-  'aaaruby1.'//false
+  'aaaruby1.',//false
 ];
 
 let result = test.filter((string) => string.match(regex));
