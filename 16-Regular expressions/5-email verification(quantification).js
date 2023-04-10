@@ -32,4 +32,3 @@ console.log(result); /* => [
   'in_fo@goOgle.com',
   'i@you.cOm',
 ]; */
-Footer
