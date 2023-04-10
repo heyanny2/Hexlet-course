@@ -16,7 +16,7 @@ let test = [
 
 let result = test.filter((string) => string.match(regex));
 console.log(result); /* => [
-  'ruby1.9',//true
-  'ruby1.h',//true
+  'ruby1.9',
+  'ruby1.h',
   'abcruby1.8xyz'
 ]; */
