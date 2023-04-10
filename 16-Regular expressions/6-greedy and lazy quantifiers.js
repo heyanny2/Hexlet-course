@@ -20,4 +20,3 @@ console.log(result); /* => [
   '(one) ($%@#$) (value1)',
   'test (^,ehu-) ) (t) (//)',
 ]; */
-Footer
