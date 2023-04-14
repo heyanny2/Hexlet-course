@@ -9,7 +9,7 @@ import $ from 'jquery';
 
 export default () => {
   const buttons = $('a[data-slide]');
-  $(buttons).click((e) => {
+  buttons.click((e) => {
     const slideDirection = e.currentTarget.dataset.slide;
     const carousel = e.currentTarget.closest('[data-ride="carousel"]');
     const active = $('.carousel-item.active', carousel);
