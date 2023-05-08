@@ -28,18 +28,20 @@ class OctokitFake {
   };
 }
 
-test('get user mail language', async () => {
+test('get user main language', async () => {
   const data = [
     { language: 'php' },
     { language: 'javascript' },
     { language: 'CSS' },
+    { language: 'ruby' },
+    { language: 'php' },
   ];
   const client = new OctokitFake(data);
   const mainLanguage = await getUserMainLanguage('user', client);
   expect(mainLanguage).toEqual('php');
 });
 
-test('getUserMainLanguage when empty', async () => {
+test('get user main language when empty', async () => {
   const client = new OctokitFake([]);
   const mainLanguage = await getUserMainLanguage('user-without-repos', client);
   expect(mainLanguage).toBeNull();
