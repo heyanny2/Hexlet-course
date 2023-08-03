@@ -26,7 +26,7 @@ class Navigator {
         this.strategy = new Driving(this.streets);
         break;
     }
-    [this.currectStreet] = this.streets;
+    this.currectStreet = this.streets[0];
   }
 
   goToNextTurn() {
