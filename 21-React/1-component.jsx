@@ -7,9 +7,11 @@
     <button type="button" className="btn btn-primary">Go somewhere</button>
   </div>
 </div>*/
-
+///showcase on CodePen https://codepen.io/heyannny2/pen/VwVJeKa
+import ReactDOM from 'react-dom/client';
 import React from 'react';
 
+//Card.jsx
 export default class Card extends React.Component {
   render() {
     return (
@@ -23,3 +25,7 @@ export default class Card extends React.Component {
     );
   }
 }
+
+//index.jsx
+const mountNode = document.getElementById("container");;
+ReactDOM.render(<Card />, mountNode);
