@@ -1,13 +1,12 @@
-/*Реализуйте и экспортируйте по умолчанию компонент DefinitionsList, который принимает свойство data следующей структуры:
+/*Write a component Definitions that takes data as an object and returns proper HTML structure of <dl> list out of it.
+If no data was argumented, render nothing.
+Example:
 const definitions = [
-  { dt: 'one', dd: 'two', id: 1 },
-  { dt: 'another term', dd: 'another description', id: 2 },
+  { dt: 'one', dd: 'two' },
+  { dt: 'another term', dd: 'another description' },
 ];
- 
-<DefinitionsList data={definitions} />;
 
-Результатом должен быть следующий вывод:
-
+Result:
 <dl>
   <dt>one</dt>
   <dd>two</dd>
