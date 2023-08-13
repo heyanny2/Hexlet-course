@@ -1,6 +1,4 @@
-/*Реализуйте и экспортируйте по умолчанию компонент Card, который принимает на вход свойства title и text и возвращает jsx с подставленными значениями. 
-Если свойства не переданы, вместо них подставляются строки "title" и "text".:
-*/
+/*Write Card component that takes title and text props.*/
 
 import React from 'react';
 
