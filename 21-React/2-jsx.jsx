@@ -1,17 +1,13 @@
-/*Реализуйте и экспортируйте функцию по умолчанию, которая принимает на вход объект со свойствами title и text, 
-и возвращает jsx с подставленными значениями. Пример:
-
-import getCard from './Card.jsx';
- 
-getCard({ title: 'hi', text: 'how are you?' });
+/*Write a function that takes an object with title and/or text and returns ready for rendering jsx of 
+Bootstrap's card with title and text in the proper tags.
+If no title or text specified, these tags should not be rendered. If there're no text AND title, return null.
+getCard({ title: 'hi', text: 'how are you?' }) =>
 // <div className="card">
 //   <div className="card-body">
 //     <h4 className="card-title">hi</h4>
 //     <p className="card-text">how are you?</p>
 //   </div>
-// </div>
-Если title отсутствует, то соответствующий ему кусок dom не отрисовывается, 
-то же самое справедливо и для text. Если отсутствуют оба свойства, то из функции необходимо вернуть null.*/
+// </div>*/
 
 import React from 'react';
 
