@@ -1,13 +1,6 @@
-/*еализуйте компонент Alert, который отрисовывает алерт бутстрапа. Компонент принимает на вход два свойства:
-
-text - отображаемый текст
-type - тип алерта, может принимать одно из следующих значений: primary, secondary, success, danger, warning, info, light, dark;
-Пример использования:
-
-<Alert type="warning" text="what is love?" />;
-Вывод:
-
-<div class="alert alert-warning" role="alert">what is love?</div>*/
+/*Write an Alert React component that has some text and changes according to its type 
+(primary, secondary, success, danger, warning, info, light, dark).
+Type is changed by adding proper class: class="alert alert-warning", "alert alert-light"...*/
 
 import ReactDOM from 'react-dom/client';
 import React from 'react';
