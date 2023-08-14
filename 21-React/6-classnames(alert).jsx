@@ -2,6 +2,8 @@
 (primary, secondary, success, danger, warning, info, light, dark).
 Type is changed by adding proper class: class="alert alert-warning", "alert alert-light"...*/
 
+//showcase on CodePen https://codepen.io/heyannny2/pen/xxQvOWJ
+
 import ReactDOM from 'react-dom/client';
 import React from 'react';
 import cn from 'classnames';
